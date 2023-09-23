@@ -11,8 +11,7 @@ def comprobar_todos_suscriptores(n, a, q, lista_car):
 
     OUTPUT:--------------------------------
     YES, NO, MAYBE : str
-    '''
-        
+    '''  
     a_p = 0  # suscriptores que se añaden
     a_n = 0  # suscriptores que se quitan
     
@@ -45,7 +44,7 @@ def comprobar_todos_suscriptores(n, a, q, lista_car):
 t = int(input())  # numero casos de prueba
 
 # desde la 2º linea, cada 2
-for _ in range(1,t*2,2):
+for _ in range(1, t*2, 2):
     # el primer input da los suscriptores
     n, a, q = input().split()
     n = int(n)  # num. suscriptores del canal
